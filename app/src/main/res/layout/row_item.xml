@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama Barang"
+            android:textSize="25sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+        <TextView
+            android:id="@+id/txtcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kode Barang"
+            android:textSize="17sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp" />
+        <TextView
+            android:id="@+id/txttype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipe Barang"
+            android:textSize="17sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"/>
+        <TextView
+            android:id="@+id/txtprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Harga Barang"
+            android:textSize="17sp"
+            android:layout_marginLeft="20sp"/>
+
+        <View
+            android:background="#bfbfbf"
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
